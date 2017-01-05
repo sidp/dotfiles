@@ -2,8 +2,9 @@
 
 ## Installation
 
-1. Clone from github `git clone https://github.com/sidp/social-news.git ~/.dotfiles`
-2. Symlink `./.dotfiles/symlink.sh`
+1. Make sure to be in your home directory `cd`
+2. Clone from github `git clone https://github.com/sidp/dotfiles.git ~/.dotfiles && cd ~/.dotfiles`
+3. Symlink `./symlink.sh`
 
 ## Update
 
