@@ -15,4 +15,6 @@ ZSH_CUSTOM=$HOME/.dotfiles/oh-my-zsh
 # oh-my-zsh plugins
 plugins=(git git-flow brew brew-cask osx node npm)
 
-source $ZSH/oh-my-zsh.sh
+if [ -e $ZSH/oh-my-zsh.sh ]; then
+	source $ZSH/oh-my-zsh.sh
+fi
