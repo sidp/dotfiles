@@ -6,6 +6,7 @@ set cursorline
 set autoindent
 set ruler
 
+set backspace=indent,eol,start
 set matchpairs+=<:>
 
 " Search settings
