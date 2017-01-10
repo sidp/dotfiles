@@ -18,3 +18,7 @@ plugins=(git git-flow brew brew-cask osx node npm)
 if [ -e $ZSH/oh-my-zsh.sh ]; then
 	source $ZSH/oh-my-zsh.sh
 fi
+
+# Don't share history between sessions
+unsetopt share_history
+
